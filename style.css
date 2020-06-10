@@ -1,85 +1,89 @@
-    header {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        border: black 1px solid;
-        margin-bottom: 0.5rem;
-        border-radius: 0.5rem;
-        background: rgb(255, 255, 255);
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0.9471989479385504) 24%, rgba(3, 130, 182, 0.8211485277704832) 99%);
-    }
-    
-    .label {
-        font-family: 'Playfair Display', serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: center;
-        font-size: 2rem;
-        letter-spacing: 5rem;
-    }
-    
-    .navegation {
-        width: 40%;
-    }
-    
-    .navegation ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 3rem;
-        color: black;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
-    nav li {
-        font-family: 'Playfair Display', serif;
-        list-style-type: none;
-        text-decoration: none;
-    }
-    
-    li:hover {
-        color: white;
-    }
-    
-    .content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 1rem;
-    }
-    
-    section img {
-        border-radius: 1rem;
-        width: 100%;
-    }
-    
-    .label2 {
-        font-size: small;
-    }
-    
-    .label3 {
-        text-transform: uppercase;
-        font-size: 2rem;
-    }
-    
-    aside {
-        font-family: 'Playfair Display', serif;
-        text-align: center;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-        margin-right: 1rem;
-    }
-    
-    aside>div {
-        border-bottom: solid 4px black;
-        padding-top: 2rem;
-    }
-    
-    footer {
-        font-family: 'Playfair Display', serif;
-        font-size: xx-small;
-        text-align: center;
-        margin: 3px;
-    }
-    
-    .italic {
-        font-style: italic;
-    }
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: black 1px solid;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9471989479385504) 24%, rgba(3, 130, 182, 0.8211485277704832) 99%);
+}
+
+.label {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 5rem;
+}
+
+.navegation {
+    width: 40%;
+}
+
+.navegation ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li {
+    font-family: 'Playfair Display', serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+section img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.label2 {
+    font-size: small;
+}
+
+.label3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+aside {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-right: 1rem;
+}
+
+aside>div {
+    border-bottom: solid 4px black;
+    padding-top: 2rem;
+}
+
+footer {
+    font-family: 'Playfair Display', serif;
+    font-size: xx-small;
+    text-align: center;
+    margin: 3px;
+}
+
+.italic {
+    font-style: italic;
+}
