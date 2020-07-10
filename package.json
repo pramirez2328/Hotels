@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pramirez2328/hotels/issues"
   },
-  "homepage": "https://github.com/pramirez2328/hotels#readme"
+  "homepage": "https://github.com/pramirez2328/hotels#readme",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
 }
