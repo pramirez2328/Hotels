@@ -1,0 +1,19 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "this is my first job with npm",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramirez2328/hotels.git"
+  },
+  "author": "Pedro Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramirez2328/hotels/issues"
+  },
+  "homepage": "https://github.com/pramirez2328/hotels#readme"
+}
